@@ -25,7 +25,9 @@ public class Aims {
         System.out.println("Total cost is: ");
         System.out.println(an0der.totalCost());
 
-
+        an0der.addDigitalVideoDisc(dvd1);
+        System.out.println("Total cost is: ");
+        System.out.println(an0der.totalCost());
 
     }
 }
