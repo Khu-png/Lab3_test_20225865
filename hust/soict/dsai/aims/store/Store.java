@@ -1,5 +1,9 @@
+package hust.soict.dsai.aims.store;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
 public class Store {
-    private DigitalVideoDisc[] itemsInStore = new DigitalVideoDisc[10]; // Store with max capacity of 10 DVDs
+    private DigitalVideoDisc[] itemsInStore = new DigitalVideoDisc[10]; // hust.soict.dsai.aims.store.Store with max capacity of 10 DVDs
     private int currentIndex = 0; // Index to track the current position for the DVDs in the store
 
     // Method to add a DVD to the store
@@ -9,7 +13,7 @@ public class Store {
             currentIndex++;
             System.out.println("Added: " + dvd.getTitle());
         } else {
-            System.out.println("Store is full, cannot add more DVDs.");
+            System.out.println("hust.soict.dsai.aims.store.Store is full, cannot add more DVDs.");
         }
     }
 
